@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Welle/static/css/main.ce1b3b6f.css",
+    "main.js": "/Welle/static/js/main.402766d5.js",
+    "static/js/787.cda612ba.chunk.js": "/Welle/static/js/787.cda612ba.chunk.js",
+    "static/media/seo.jpg": "/Welle/static/media/seo.9e5438f2f1f7c78696dd.jpg",
+    "static/media/mobile.png": "/Welle/static/media/mobile.99d6e95414031f55a124.png",
+    "static/media/web.jpg": "/Welle/static/media/web.3fc5f6eab551fca70e95.jpg",
+    "static/media/design.jpg": "/Welle/static/media/design.842f471362ce41b841df.jpg",
+    "static/media/ref1.jpg": "/Welle/static/media/ref1.c023360bc3e0d5d57e04.jpg",
+    "static/media/landing_bg.svg": "/Welle/static/media/landing_bg.e9930f71f691d7f14435895b6a63e38c.svg",
+    "index.html": "/Welle/index.html",
+    "main.ce1b3b6f.css.map": "/Welle/static/css/main.ce1b3b6f.css.map",
+    "main.402766d5.js.map": "/Welle/static/js/main.402766d5.js.map",
+    "787.cda612ba.chunk.js.map": "/Welle/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce1b3b6f.css",
+    "static/js/main.402766d5.js"
+  ]
+}
