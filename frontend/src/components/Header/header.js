@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Navbar, Nav, NavDropdown, Row, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import '../App.css'
+import '../../App.css'
 
 export default function Header() {
     return (
