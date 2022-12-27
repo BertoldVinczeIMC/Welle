@@ -43,7 +43,7 @@ export default function Services() {
   return (
     <section className="services">
       <Container fluid>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center w-100">
           <Col lg={12} md={12} sm={12} xs={12} className="text-center service-card">
             <h1 className="section-title">Services</h1>
             <p className="service-description">
@@ -52,7 +52,7 @@ export default function Services() {
             </p>
           </Col>
         </Row>
-        <Row>
+        <Row className="d-flex justify-content-center service-row w-100">
           <Servicecard title={"Website development"} img={web} description={"We create custom, unique, niche websites, webapps and webshops for your needs with the most modern technologies in the shortest time possible."} listIcons={webIcons}/>
           <Servicecard title={"Mobile development"} img={mobile} description={"We create custom mobile application for your needs. IOS? Swift. Android? Java. Both? ReactNative or Dart"} listIcons={mobileIcons}/>
           <Servicecard title={"Databases"} img={database} description={"We can design,create and even optimize database schemas for you in MySQL, PostgreSQL or MongoDB."}/>

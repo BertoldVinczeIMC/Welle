@@ -52,6 +52,15 @@ section {
   font-weight: 800;
 }
 
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
 
 /* Banner */
@@ -126,6 +135,29 @@ section {
   margin-bottom: 1rem;
   background-color: var(--light-grey);
   color: var(--purple);
+}
+
+.scard{
+  width: 20rem !important;
+  border: #3c008b 1px solid !important;
+  border-radius: 1rem !important;
+}
+
+.scard-img{
+  padding-top: 1rem !important;
+}
+
+.service-row {
+  background-color: var(--light-grey);
+  gap: 1rem;
+}
+
+.scard:hover{
+  background-color: var(--purple);
+  color: white;
+  scale: 1.2;
+  /* move z index so this is in front of everything */
+  z-index: 1;
 }
 
 .service-title {
@@ -297,6 +329,31 @@ form>button {
     background-color: var(--light-grey);
     color: var(--purple);
   }
+
+  .scard{
+    width: 20rem !important;
+    border: #3c008b 1px solid !important;
+    border-radius: 1rem !important;
+  }
+  
+  .scard-img{
+    padding-top: 1rem !important;
+  }
+  
+  .service-row {
+    background-color: var(--light-grey);
+    gap: 1rem;
+  }
+  
+  .scard:hover{
+    /* remove every effect */
+    background-color: var(--light-grey);
+    color: var(--purple);
+    scale: 1;
+    /* move z index so this is in front of everything */
+    z-index: 0;
+  }
+  
 
   .service-title {
     font-size: 28px;

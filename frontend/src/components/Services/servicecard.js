@@ -27,23 +27,26 @@ export default function Servicecard(props) {
     observer.observe(elementRef.current);
   }, []);
 
+  //speed random between 1.5 and 2.5
+  const speed = Math.random() * (2.5 - 1.5) + 1.5;
+
   return (
-    <Col lg={3} md={6} sm={12} className="service-card">
+    <Col lg={3} md={6} sm={12} className="service-card scard">
       <motion.div
         ref={elementRef}
         animate={animationControls}
-        initial={{ x: -100, opacity: 0 }}
+        initial={{ opacity: 0 }}
         variants={{
           visible: {
             x: 0,
             opacity: 1,
             transition: {
-              duration: 1.25,
+              duration: speed,
             },
           },
         }}
       >
-        <Image fluid src={props.img} />
+        <Image fluid src={props.img} className="scard-img"/>
         {/* image row */}
         <Row className="justify-content-center text-center service-title">
           {props.title}
