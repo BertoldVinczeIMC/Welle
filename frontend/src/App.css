@@ -240,7 +240,7 @@ form>button {
 
 
 /* Phone size */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 832px) {
 
   section{
     margin-bottom: 2rem !important;
@@ -271,6 +271,8 @@ form>button {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 2rem;
+    height: 100% !important;
+    align-items: flex-start;
   }
 
   .hero-title-col {
@@ -315,6 +317,10 @@ form>button {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .hero-row-main{
+    margin-top: 0 !important;
   }
 
   /* Services section */
