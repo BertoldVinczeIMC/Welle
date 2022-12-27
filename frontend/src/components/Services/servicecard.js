@@ -27,14 +27,12 @@ export default function Servicecard(props) {
     observer.observe(elementRef.current);
   }, []);
 
-  const startx = Math.random() < 0.5 ? -100 : 100;
-
   return (
     <Col lg={3} md={6} sm={12} className="service-card">
       <motion.div
         ref={elementRef}
         animate={animationControls}
-        initial={{ x: startx, opacity: 0 }}
+        initial={{ x: -100, opacity: 0 }}
         variants={{
           visible: {
             x: 0,
