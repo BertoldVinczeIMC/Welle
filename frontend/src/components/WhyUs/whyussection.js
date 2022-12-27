@@ -1,10 +1,10 @@
 import React from "react";
 
-import { motion } from "framer-motion";
-
-import { Container, Row, Col } from "react-bootstrap";
-
 import WhyCol from "./whycol";
+
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default function WhyUsSection() {
   return (

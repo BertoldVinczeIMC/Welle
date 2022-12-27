@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from "react";
 
 import { motion, useAnimation } from "framer-motion";
 
-import { Image, Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Image from "react-bootstrap/Image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

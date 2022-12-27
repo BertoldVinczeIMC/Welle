@@ -1,7 +1,12 @@
 import React from 'react'
-import { Container, Navbar, Nav, NavDropdown, Row, Col, Button } from 'react-bootstrap';
+
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import Container from 'react-bootstrap/Container'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 import '../../App.css'
 
 export default function Header() {

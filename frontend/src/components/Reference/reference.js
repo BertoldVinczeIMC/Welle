@@ -1,6 +1,11 @@
 import React, { useEffect, useRef } from "react";
-import { Carousel, Container, Row, Col } from "react-bootstrap";
+
 import { motion, useAnimation } from "framer-motion";
+
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Carousel from "react-bootstrap/Carousel";
 
 import ref1 from "../../assets/img/ref1.jpg";
 

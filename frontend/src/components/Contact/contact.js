@@ -1,5 +1,8 @@
 import React from "react";
-import { Form, Button,Container } from "react-bootstrap";
+
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 const ContactForm = () => {
   return (
@@ -19,7 +22,7 @@ const ContactForm = () => {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows="3" />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button variant="primary" type="submit" >
             Submit
           </Button>
         </Form>

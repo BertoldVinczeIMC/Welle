@@ -1,9 +1,13 @@
 import React from "react";
-import { Container, Row, Col, Button, Image } from "react-bootstrap";
-import landing from "../../assets/img/landing_bg.svg";
+
 import { motion } from "framer-motion";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowRight } from "@fortawesome/free-solid-svg-icons";
+
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
+import Button from "react-bootstrap/Button";
+
+import landing from "../../assets/img/landing_bg.svg";
 
 export default function Banner() {
   return (

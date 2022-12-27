@@ -1,6 +1,10 @@
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Servicecard from "./servicecard";
+
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import {
   faDatabase,
@@ -8,10 +12,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faReact,faWordpress,faShopify,faNodeJs, faApple } from "@fortawesome/free-brands-svg-icons";
-
-import { Container, Row, Col } from "react-bootstrap";
-
-import Servicecard from "./servicecard";
 
 import web from "../../assets/img/web.jpg";
 import mobile from "../../assets/img/mobile.png";

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-import { Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
 
 import { motion, useAnimation } from "framer-motion";
 

@@ -1,5 +1,5 @@
 :root {
-  --purple: #012970;
+  --purple: #3c008b;
   --dark: #0c1618;
   --light-grey: #f2f5fc;
   --hero-title-size:36px;
@@ -196,6 +196,9 @@ section {
 form>button {
   margin-top:1rem !important;
   width: 100%;
+  background-color: var(--purple) !important;
+  border-color: var(--purple) !important;
+  color:white;
 }
 
 /* Footer section */
